@@ -1,3 +1,5 @@
-echo "
+def greet(name):
+    return f'Hello, {name}!'
+
 def farewell(name):
-    return f'Goodbye, {name}!'" >> greetings.py
+    return f'Goodbye, {name}!'
